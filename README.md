@@ -5,23 +5,7 @@ An Open Source Backdoor / Rootkit Creator Framework
 
 # Help Menu:
 
-   ________________________________________________________________________________________
-    |------------------------------------------------------------------------------------|
-    |                                                                                    |
-    |      start listener / ftpserver         Start Port Listener or FTP Server.         |
-    |      stop listener / ftpserver          Stop Port Listener Or FTP Server.          |
-    |                                                                                    |
-    |      set lhost <IP>                     Set Value Of Local Host For Listener.      |
-    |      set lport <PORT>                   Set Value Of Local Port For Listener.      |
-    |                                                                                    |
-    |                                                                                    |
-    |      creator                            Switch To Rootkit Creator Mode.            |
-    |                                                                                    |
-    |      show options                       Show Given Options.                        |
-    |                                                                                    |
-    |      clear                              Clear Console.                             |
-    |      help                               Display This Help Menu.                    |
-   _________________________________________________________________________________________
+![2024-07-01 00_07_41-Hax Framework](https://github.com/haxerr9/17mj-Framework/assets/148996577/dbe6b96e-0fbe-4a40-bd7e-f1cbd7b0b027)
 
 - First you need to install these libraries:
 
@@ -49,20 +33,8 @@ An Open Source Backdoor / Rootkit Creator Framework
 
 # Creator Mode:
  
-   ________________________________________________________________________________________
-    |------------------------------------------------------------------------------------|
-    |                                                                                    |
-    |      set rhost <IP>                     Set Value Of Remote Host For Rootkit.      |
-    |      set rport <PORT>                   Set Value Of Remote Port For Rootkit.      |
-    |                                                                                    |
-    |      create <FILE NAME>.py              Give A Name For Rootkit And Create.        |
-    |                                                                                    |
-    |      exit                               Exit Rootkit Creator Mode                  |
-    |                                                                                    |
-    |                                                                                    |
-    |      clear                              Clear Console.                             |
-    |      help                               Display This Help Menu.                    |
-   _________________________________________________________________________________________
+![2024-07-01 00_08_42-Hax Framework](https://github.com/haxerr9/17mj-Framework/assets/148996577/784b8c5b-5864-466d-bf46-8aabe7bf171f)
+
 
 # Commands You Can Use When You Get The Shell:
 - exit                   : Exits the program and closes the backdoor / rootkit
