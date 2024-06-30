@@ -79,6 +79,12 @@ An Open Source Backdoor / Rootkit Creator Framework
 
 - And All The Other Commands That Can Be Run In The CMD / Terminal
 
+# Convert .py To .exe:
+
+- You can use this command on CMD / Terminal:
+
+>>> pyinstaller --onefile <python file>
+
 # To Give Ideas / Report Bugs:
 
 Discord: https://discord.gg/uDWMSah6As
