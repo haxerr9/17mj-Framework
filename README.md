@@ -28,6 +28,8 @@ An Open Source Backdoor / Rootkit Creator Framework
 
 - It has 2 mode which is 'MJ Mode' and 'Rootkit Creator' mode. In the 'Rootkit Creator' mode you can give a remote host and remote port for the rootkit / backdoor to connect (as you think it is a reverse connection project)
 
+- Remember, you need to start FTP Server for file transfer.
+
 # Creator Mode:
  
    ________________________________________________________________________________________
