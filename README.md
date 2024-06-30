@@ -63,6 +63,8 @@ Discord: https://discord.gg/uDWMSah6As
 
 Instagram: _haxerr
 
+# Developer:
+- hax9999 (17mj)
 
    # IMPORTANT NOTE
 
