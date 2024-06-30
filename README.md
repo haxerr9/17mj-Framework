@@ -59,6 +59,8 @@ An Open Source Backdoor / Rootkit Creator Framework
 - download <FILE NAME>   : Download a file from remote directory
 - screenshot             : Take screenshot
 
+- And All The Other Commands That Can Be Run In The CMD / Terminal
+
 # To Give Ideas / Report Bugs:
 
 Discord: https://discord.gg/uDWMSah6As
