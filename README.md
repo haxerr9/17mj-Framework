@@ -61,6 +61,7 @@ An Open Source Backdoor / Rootkit Creator Framework
 # To Give Ideas / Report Bugs:
 
 Discord: https://discord.gg/uDWMSah6As
+
 Instagram: _haxerr
 
 
