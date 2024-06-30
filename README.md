@@ -58,4 +58,7 @@ An Open Source Backdoor / Rootkit Creator Framework
 - download <FILE NAME>   : Download a file from remote directory
 - screenshot             : Take screenshot
 
+# IMPORTANT NOTE
+
+- ONLY USE FOR EDUCATION OR IN SITUATIONS THAT YOU HAVE PERMISSION. I DO NOT ACCEPT ANY RESPONSIBILITIES THAT CAN HAPPEN IN ILLEGAL SITUATION
 
