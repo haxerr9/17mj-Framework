@@ -55,7 +55,7 @@ An Open Source Backdoor / Rootkit Creator Framework
 
 - You can use this command on CMD / Terminal:
 
->>> pyinstaller --onefile <python file>
+> pyinstaller --onefile <pythonfile>
 
 # To Give Ideas / Report Bugs:
 
