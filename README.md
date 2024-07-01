@@ -50,6 +50,8 @@ An Open Source Backdoor / Rootkit Creator Framework
 - Add Startup
 - Make Rootkit Hidden
 
+# Recent Bug Fixes:
+- Startup Path Fixed.
 
 
 # Commands You Can Use When You Get The Shell:
