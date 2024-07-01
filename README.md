@@ -36,6 +36,20 @@ An Open Source Backdoor / Rootkit Creator Framework
 ![2024-07-01 00_08_42-Hax Framework](https://github.com/haxerr9/17mj-Framework/assets/148996577/784b8c5b-5864-466d-bf46-8aabe7bf171f)
 
 
+
+# Features:
+- Upload files
+- Download files
+- Take Screenshot
+- Add Startup
+- Make Files Hidden
+- 
+- All Other CMD / Terminal Features
+
+
+
+
+
 # Commands You Can Use When You Get The Shell:
 - exit                   : Exits the program and closes the backdoor / rootkit
 - pwd                    : Prints the current working directory
@@ -48,7 +62,9 @@ An Open Source Backdoor / Rootkit Creator Framework
 - upload <FILE NAME>     : Upload a file from local directory
 - download <FILE NAME>   : Download a file from remote directory
 - screenshot             : Take screenshot
-
+- add startup            : Move rootkit to startup
+- hide rootkit           : Hide rootkit file
+- 
 - And All The Other Commands That Can Be Run In The CMD / Terminal
 
 # Convert .py To .exe:
