@@ -42,11 +42,13 @@ An Open Source Backdoor / Rootkit Creator Framework
 - Download files
 - Take Screenshot
 - Add Startup
-- Make Files Hidden
+- Make Rootkit Hidden
 - 
 - All Other CMD / Terminal Features
 
-
+# New Added Features:
+- Add Startup
+- Make Rootkit Hidden
 
 
 
