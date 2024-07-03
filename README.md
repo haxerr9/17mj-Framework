@@ -32,6 +32,8 @@ An Open Source Backdoor / Rootkit Creator Framework
 
 # Updates:
 - 'install.py' added to install requirements easily
+- Updated 'create' command in 'Creator Mode', with that update you dont have to convert PY file to EXE. It will create Rootkit in both PY and EXE formats
+
 
 # Recent Bug Fixes:
 - Startup Path Fixed.
