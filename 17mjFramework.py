@@ -43,7 +43,7 @@ Note: If you already have a rootkit, you can just use listener. You dont need to
 message = '     Enjoy Your FUD Rootkit ;)\n '
 
 config = ConfigParser()
-config.read('config.ini')
+config.read(r'config.ini')
 
 print(banner)
 time.sleep(0.3)
