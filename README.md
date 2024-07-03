@@ -30,9 +30,8 @@ An Open Source Backdoor / Rootkit Creator Framework
 - 
 - All Other CMD / Terminal Features
 
-# New Added Features:
-- Add Startup
-- Make Rootkit Hidden
+# Updates:
+- 'install.py' added to install requirements easily
 
 # Recent Bug Fixes:
 - Startup Path Fixed.
