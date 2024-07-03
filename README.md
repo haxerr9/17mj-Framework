@@ -7,23 +7,7 @@ An Open Source Backdoor / Rootkit Creator Framework
 
 ![2024-07-01 00_07_41-Hax Framework](https://github.com/haxerr9/17mj-Framework/assets/148996577/dbe6b96e-0fbe-4a40-bd7e-f1cbd7b0b027)
 
-- First you need to install these libraries:
-
-  -socket
-
-  -os
-
-   -configparser
-
-   -pyftpdlib
-
-   -ftplib
-
-   -pyautogui
-
-   -pyinstaller
-
-  
+- First you need to install the requirements with 'install.py'
 
 - With this help menu you can choose what you want to do. With this 17mj Framework, you can create a FUD Rootkit / Backdoor.
 
