@@ -37,6 +37,7 @@ An Open Source Backdoor / Rootkit Creator Framework
 
 # Recent Bug Fixes:
 - Startup Path Fixed.
+- '17mjFramework.py' File issue: Not reading / writing 'config.ini' file. Issue Fixed.
 
 
 # Commands You Can Use When You Get The Shell:
@@ -56,11 +57,6 @@ An Open Source Backdoor / Rootkit Creator Framework
 - 
 - And All The Other Commands That Can Be Run In The CMD / Terminal
 
-# Convert .py To .exe:
-
-- You can use this command on CMD / Terminal:
-
-> pyinstaller --onefile pythonfile.py
 
 # To Give Ideas / Report Bugs:
 
