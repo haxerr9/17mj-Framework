@@ -42,6 +42,7 @@ Note: If you already have a rootkit, you can just use listener. You dont need to
 
 message = '     Enjoy Your FUD Rootkit ;)\n '
 
+time.sleep(2)
 config = ConfigParser()
 config.read(r'config.ini')
 
