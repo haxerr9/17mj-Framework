@@ -9,7 +9,7 @@ An Open Source Backdoor / Rootkit Creator Framework
 
 - First you need to install the requirements with 'install.py'
 
-- With this help menu you can choose what you want to do. With this 17mj Framework, you can create a FUD Rootkit / Backdoor.
+- With help menu you can choose what you want to do. With this 17mj Framework, you can create a FUD Rootkit / Backdoor.
 
 - It has 2 mode which is 'MJ Mode' and 'Rootkit Creator' mode. In the 'Rootkit Creator' mode you can give a remote host and remote port for the rootkit / backdoor to connect (as you think it is a reverse connection project)
 
